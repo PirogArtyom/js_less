@@ -1,3 +1,8 @@
-.block-title {
-    color: red;
+.script-block {
+    font-size: 30px;
+    margin: 50px auto;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+
 }
