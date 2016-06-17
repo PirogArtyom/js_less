@@ -1,13 +1,12 @@
-var kefir = "нет", ryazenka = "нет", yogurt = "да";
-if (kefir == "да") {
-    document.write("Мы покупаем кефир");
+function calctotalDistance(time, speedOffirst, speedOfsecond) {
+
+    var firstdist;
+    firstdist = speedOffirst * time;
+    var seconddist = speedOfsecond * time;
+    var totalDistance = firstdist + seconddist;
+    return totalDistance;
 }
-else if (ryazenka == "да") {
-    document.write("Покупаем ряженку");
-}
-else if (yogurt == "да") {
-    document.write("Покупаем йогурт");
-}
-else {
-    document.write("Уходим из магазина");
-}
+
+calctotalDistance(3, 12, 5);
+
+
